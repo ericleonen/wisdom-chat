@@ -1,0 +1,16 @@
+.AddMessageButton {
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    background-color:var(--dark-purple);
+    bottom: 20px;
+    right: 20px;
+    border: none;
+    border-radius: 50%;
+    font-size: 1.3em;
+    box-shadow: 2px 2px 4px gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}

@@ -1,0 +1,20 @@
+.App {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.app-content {
+    position: relative;
+    height: calc(100vh - var(--header-height));
+    overflow: hidden;
+    width: 100vw;
+}
+
+.view {
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+}

@@ -1,0 +1,6 @@
+.Messages {
+    flex: 1;
+    overflow-y: scroll;
+    width: 100%;
+    overflow-x: hidden;
+}

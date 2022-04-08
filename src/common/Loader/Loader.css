@@ -1,0 +1,25 @@
+.Loader {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    font-size: 1em;
+    font-weight: 500;
+    color: var(--purple);
+}
+
+.spinner {
+    animation: spin infinite 1s linear;
+    font-size: 2em;
+    color: var(--light-purple);
+    margin-bottom: 15px;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to { 
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,44 @@
+.AddMessage {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    flex: 1;
+    width: 100%;
+}
+
+.add-message-field {
+    border: none;
+    background-color: transparent;
+    width: 100%;
+    font-size: 1em;
+    height: min-content;
+    font-family: 'Montserrat', sans-serif;
+    resize: none;
+}
+
+.add-message-footer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+.add-message-char-count {
+    color: var(--light-gray);
+}
+
+.add-message-btn {
+    color: white;
+    background-color: var(--light-purple);
+    border: none;
+    padding: 9px;
+    border-radius: 100px;
+    font-weight: 600;
+    margin-left: auto;
+    transition: 0.2s;
+}
+
+.add-message-btn:disabled {
+    opacity: 0.8;
+}
